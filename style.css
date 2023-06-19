@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
-body{
-    padding: 0;
-    margin: 0;
-    background: #0a0c24;
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background: #0a0c24;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -22,189 +22,188 @@ body{
   background: rgb(231, 192, 255);
   border-radius: 10px;
 }
-.navBar{
+.navBar {
   background: #070819;
-    padding: 20px 30px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+  padding: 20px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
-.navBarMain{
+.navBarMain {
   background: #070819;
-    padding: 0 20px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid rgb(231, 192, 255);
+  padding: 0 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(231, 192, 255);
 }
-.logoSide{
-    padding-right: 20px;
-    border-right: 1px solid rgb(231, 192, 255);
+.logoSide {
+  padding-right: 20px;
+  border-right: 1px solid rgb(231, 192, 255);
 }
-.logoSide h1{
-    font-family: 'Oxygen Mono', monospace;
-    color: rgb(231, 192, 255);
-    margin: 0;
-    font-size: 25px;
+.logoSide h1 {
+  font-family: "Oxygen Mono", monospace;
+  color: rgb(231, 192, 255);
+  margin: 0;
+  font-size: 25px;
 }
 
-.logoMid h1{
-    color: rgb(231, 192, 255);
-    margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+.logoMid h1 {
+  color: rgb(231, 192, 255);
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
 }
-.joiner{
-    text-align: center;
+.joiner {
+  text-align: center;
 }
-.containe{
-  font-family: 'Quicksand', sans-serif;
+.containe {
+  font-family: "Quicksand", sans-serif;
   color: rgb(231, 192, 255);
   margin: 0;
   font-size: 20px;
 
-    border-left: 1px solid rgb(231, 192, 255);
+  border-left: 1px solid rgb(231, 192, 255);
 }
-#hours{
+#hours {
   padding-left: 20px;
 }
 
-
 /*todo*/
 
-  .container{
-      margin-top: 200px;
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 80px;
-
-  }
-   .search{
-      display: flex;
-      justify-content: center;
-      margin-bottom: 20px;
-  }
-  .search input[type=text]{
-    color: #fff;
-    border: none;
-    width: 60%;
-    padding: 14px 10px;
-    border-radius: 15px;
-    background-color: rgba(133, 124, 163, 0.2);
-  }
- .search input[type=text]::placeholder{
-    color: rgb(231, 192, 255)}
-    .listtodo{
-        display: flex; justify-content: center;
-    }
-    ul {
-        display: block;
-        list-style-type: disc;
-        margin-block-start: 1em;
-        margin-block-end: 1em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        padding-inline-start: 00px;
-    }
- .container ul{
-      list-style: none;
-  }
-  .container li{
-    transition: 0.3s;
-      padding: 0px 20px;
-    
-  }
-  .box1{
-      transition: 0.3s;
-    padding: 20px 30px;
-    width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container {
+  margin-top: 200px;
+  font-family: "Quicksand", sans-serif;
+  margin-bottom: 80px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.search input[type="text"] {
+  color: #fff;
+  border: none;
+  width: 60%;
+  padding: 14px 10px;
+  border-radius: 15px;
+  background-color: rgba(133, 124, 163, 0.2);
+}
+.search input[type="text"]::placeholder {
+  color: rgb(231, 192, 255);
+}
+.listtodo {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 00px;
+}
+.container ul {
+  list-style: none;
+}
+.container li {
+  transition: 0.3s;
+  padding: 0px 20px;
+}
+.box1 {
+  transition: 0.3s;
+  padding: 20px 30px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #423a6f;
-  color: #F8F9FA;
-  }
-  @media (max-width: 700px){
-    #seconds{
-      display: none;
-    }
-    #dottt{
-      display: none;
-    }
-      .box1{
-        width: 380px;
-      }
-  }
-  @media (max-width: 425px){
-    .box1{
-      width: 280px;
-    }
+  color: #f8f9fa;
 }
-@media (max-width: 375px){
-    .box1{
-      width: 230px;
-    }
+@media (max-width: 700px) {
+  #seconds {
+    display: none;
+  }
+  #dottt {
+    display: none;
+  }
+  .box1 {
+    width: 380px;
+  }
 }
-@media (max-width: 320px){
-    .box1{
-      width: 180px;
-    }
+@media (max-width: 425px) {
+  .box1 {
+    width: 280px;
+  }
 }
- form{
-     color: white;
-     display: block;
- } 
-  .delete{
-    cursor: pointer;
+@media (max-width: 375px) {
+  .box1 {
+    width: 230px;
   }
-  .filtred{
-    display: none !important;
-  }  
-.joiner  label{
-    margin-bottom: 15px;
+}
+@media (max-width: 320px) {
+  .box1 {
+    width: 180px;
   }
-  .joiner input[type=text]{
-    color: #fff;
-    border: none;
-    width: 60%;
-    padding: 14px 10px;
-    border-radius: 15px;
-    background-color: rgba(133, 124, 163, 0.2);
-  }
+}
+form {
+  color: white;
+  display: block;
+}
+.delete {
+  cursor: pointer;
+}
+.filtred {
+  display: none !important;
+}
+.joiner label {
+  margin-bottom: 15px;
+}
+.joiner input[type="text"] {
+  color: #fff;
+  border: none;
+  width: 60%;
+  padding: 14px 10px;
+  border-radius: 15px;
+  background-color: rgba(133, 124, 163, 0.2);
+}
 
-  .navBar2{
-    background: #070819a1;
-    padding: 0px 30px;
-    position: fixed;
-    bottom: 30px;
-    left: 0;
-    right: 0;
+.navBar2 {
+  background: #070819a1;
+  padding: 0px 30px;
+  position: fixed;
+  bottom: 30px;
+  left: 0;
+  right: 0;
 }
-.navBarMain2{
+.navBarMain2 {
   background: #070819;
-    padding: 0 20px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid rgb(231, 192, 255);
+  padding: 0 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(231, 192, 255);
 }
-.logoSide2{
-    padding-right: 20px;
-    border-right: 1px solid rgb(231, 192, 255);
+.logoSide2 {
+  padding-right: 20px;
+  border-right: 1px solid rgb(231, 192, 255);
 }
-.logoSide2 h1{
-    font-family: 'Oxygen Mono', monospace;
-    color: rgb(231, 192, 255);
-    margin: 0;
-    font-size: 25px;
+.logoSide2 h1 {
+  font-family: "Oxygen Mono", monospace;
+  color: rgb(231, 192, 255);
+  margin: 0;
+  font-size: 25px;
 }
 
 .logoMid2 {
-    color: rgb(231,192, 255);
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
+  color: rgb(231, 192, 255);
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 .logoMid2 ul {
   display: block;
@@ -216,48 +215,47 @@ body{
   margin-inline-end: 0px;
   padding-inline-start: 0px;
 }
-.logoMid2 li{
+.logoMid2 li {
   padding: 0 10px;
 }
-.sideMenu2{ 
-    color: rgb(231, 192, 255);
-    padding-left: 20px;
-    border-left: 1px solid rgb(231, 192, 255);
-    font-size: 25px;
+.sideMenu2 {
+  color: rgb(231, 192, 255);
+  padding-left: 20px;
+  border-left: 1px solid rgb(231, 192, 255);
+  font-size: 25px;
 }
-.sideMenu2 h1{
-
-    color: rgb(231, 192, 255);
-    margin: 0;
-    font-size: 25px;
+.sideMenu2 h1 {
+  color: rgb(231, 192, 255);
+  margin: 0;
+  font-size: 25px;
 }
-.copyright{
+.copyright {
   background: #070819a1;
   position: fixed;
   left: 0;
   right: 0;
   bottom: 0px;
 }
-.copyright h1{
+.copyright h1 {
   text-align: center;
-  color: rgb(231,192, 255);
+  color: rgb(231, 192, 255);
   margin-top: 10px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 10px;
 }
-.copyright a{
+.copyright a {
   text-decoration: none;
-  color: rgb(231,192, 255);
+  color: rgb(231, 192, 255);
   margin-top: 10px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 600;
   font-size: 10px;
 }
-.logoMid2 li a{
+.logoMid2 li a {
   transition: 0.3s;
   color: white;
 }
-.logoMid2 li a:hover{
+.logoMid2 li a:hover {
   color: #958ad3;
 }
